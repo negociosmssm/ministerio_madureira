@@ -1,0 +1,15 @@
+# Robots.txt para Ministério Martinho S. S. Madureira
+# Permite acesso a todos os buscadores, exceto para a rota de admin
+
+User-agent: *
+Allow: /
+Disallow: /painel-secreto
+Disallow: /painel-secreto/*
+Disallow: /.git
+Disallow: /node_modules
+
+# Sitemap
+Sitemap: https://ministeriomadureira.com/sitemap.xml
+
+# Delay para crawlers (opcional)
+Crawl-delay: 1
